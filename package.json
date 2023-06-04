@@ -1,5 +1,5 @@
 {
-  "name": "base",
+  "name": "base-ui",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,6 +9,7 @@
     "docs:dev": "vitepress dev docs --port=3000",
     "docs:build": "vitepress build docs",
     "docs:serve": "vitepress serve docs --port=3000",
+    "docs:deploy": "docs.deploy.sh",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],

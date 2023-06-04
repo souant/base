@@ -15,6 +15,7 @@ const sidebar = {
   ]
 }
 const config = {
+  base: "/base-ui/",
   title: "BaseUI-基础组件库",
   themeConfig: {
     sidebar,
