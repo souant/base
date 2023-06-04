@@ -1,0 +1,14 @@
+:root {
+  --demoblock-border: var(--vp-c-divider-light);
+  --demoblock-control: #d3dce6;
+  --demoblock-control-bg: var(--vp-c-bg);
+  --demoblock-control-bg-hover: #f9fafc;
+  --demoblock-description-bg: var(--vp-c-bg);
+}
+
+html.dark {
+  --demoblock-border: var(--vp-c-divider);
+  --demoblock-control: #8b9eb0;
+  --demoblock-control-bg-hover: var(--vp-c-bg);
+  --demoblock-description-bg: var(--vp-code-bg-color);
+}
